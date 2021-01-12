@@ -1,0 +1,83 @@
+
+.btn-outline-success{
+    color: indianred;
+    border-color: indianred;
+}
+
+
+
+.carousel-item {
+    height: 650px ;
+}
+
+
+    
+.shopping-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #FFF0F5;
+        padding: 20px;
+        border-radius: 30px;
+        margin: 50px 250px;
+        
+      
+  }
+
+.cards-container{
+    display: flex;
+    justify-content:space-around !important; 
+    width: 750px;
+    margin:10px;
+
+}
+.card {
+    margin: 3px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+.total-price-container{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-img-top{
+    width: 176px;
+    height: 176px;
+    align-items: center;
+}
+
+.unit-price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.plus-btn,
+.minus-btn {
+  font-size: 20px;
+  margin: 10px;}
+  
+
+.plus-btn:hover {
+  color: rgb(30, 95, 30);
+}
+
+.minus-btn:hover {
+  color: rgb(199, 16, 16);
+}
+
+.qute {
+  font-size: 20px;
+}
+
+
+
+.fa-trash-alt {
+    font-size: 20px;
+    color: #dc3545;
+  }
+  
+  .fa-heart {
+    font-size: 20px;
+  }
